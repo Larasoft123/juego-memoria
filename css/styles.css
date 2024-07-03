@@ -1,0 +1,111 @@
+header {
+  height: 10vh;
+}
+
+button {
+  padding: 0 !important;
+  margin: 1rem 0 0.25rem;
+}
+
+main {
+
+  margin-top: 11vh;
+}
+
+#table {
+  border-radius: 80px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(98, 100, 189),rgb(37, 34, 230),rgb(21, 32, 238),rgb(18, 162, 234));
+}
+
+
+
+tr {
+
+  width: 100%;
+
+}
+
+
+#form {
+  height: 50px;
+}
+
+.box {
+  height: 100px;
+  width: 80%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* COSAS PARA EL EFECTO DE VOLTEO */
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 1s ease-in-out 0s;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+
+/* .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  } */
+
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+img {
+  width: 300px;
+  height: 200px;
+}
