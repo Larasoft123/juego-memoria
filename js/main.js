@@ -68,14 +68,12 @@ function destapar(id) {
             setTimeout(() => {
                 if (tarjeta1.childNodes[1].childNodes[3].childNodes[1].className == tarjeta2.childNodes[1].childNodes[3].childNodes[1].className) {
                     tarjetasDestapadas = 0
-                    alert("acertaste")
                     aciertos++
                     document.getElementById("aciertos").innerHTML = `Aciertos: ${aciertos} `
                 } else {
                     tarjetasDestapadas = 0
                     tarjeta1.disabled = false;
                     tarjeta2.disabled = false
-                    alert("fallaste")
                     tarjeta1.childNodes[1].style.transform = "rotateY(0deg)";
                     tarjeta2.childNodes[1].style.transform = "rotateY(0deg)";
                 }
@@ -248,7 +246,7 @@ function verificarUser() {
 
 
 
-        document.getElementById("table").style.display = "table"
+        document.getElementById("table").style.display = "block"
         desordenar(numeros)
         colocar(numeros)
         document.getElementById("iniciar").disabled = true;
