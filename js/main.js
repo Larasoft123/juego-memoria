@@ -147,7 +147,7 @@ function iniciarCount() {
 
             setTimeout(() => {
                 location.reload()
-            }, 5000);
+            }, 3000);
         }
 
 
@@ -226,7 +226,7 @@ function verificarUser() {
             targets[i].childNodes[1].style.transform = "rotateY(0deg)";
             targets[i].disabled= false;
         }  
-    }, 1000);
+    }, 1700);
 
 
     // obtener el valor del input de correo

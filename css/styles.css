@@ -8,14 +8,13 @@ button {
 }
 
 main {
-
   margin-top: 11vh;
 }
 
 #table {
-  border-radius: 40px;
+  border-radius: 12px;
   width: 100%;
-  background-image: linear-gradient(to right, rgb(98, 100, 189), rgb(37, 34, 230), rgb(21, 32, 238), rgb(18, 162, 234));
+
 }
 
 
@@ -110,13 +109,13 @@ img {
 
 @media screen and (min-width:1400px) {
   img {
-    width: 250px;
-    height: 200px;
+    width: 225px;
+    height: 175px;
   }
 
   .flip-card {
-    width: 250px;
-    height: 200px;
+    width: 225px;
+    height: 175px;
 
   }
 }
